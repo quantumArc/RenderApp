@@ -1,0 +1,11 @@
+
+GET http://localhost:3001/api/persons
+
+###
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+"name": "James Bond",
+"number": "39-23-6423122"
+}
