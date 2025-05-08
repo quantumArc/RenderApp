@@ -2,10 +2,21 @@
 GET http://localhost:3001/api/persons
 
 ###
-POST http://localhost:3001/api/persons/ HTTP/1.1
+GET http://localhost:3001/api/persons/68199b14a681f375f4062c05
+
+###
+POST http://localhost:3001/api/persons/
 content-type: application/json
 
 {
-"name": "James Bond",
-"number": "39-23-6423122"
+"name": "Clark Kent",
+"number": "323-6423122"
+}
+
+###
+DELETE http://localhost:3001/api/persons/6812dbd0ce8036c3fa710bd6
+
+{
+    "name": "James Bond",
+    "number": "39-23-6423122"
 }
